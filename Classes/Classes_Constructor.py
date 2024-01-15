@@ -5,15 +5,7 @@ class Product:
         self.discount_percent = discount_percent
 
     def getDiscountAmount(self):
-        """
-        Returns the
-        :return:
-        """
         return self.price * (self.discount_percent / 100)
 
     def getDiscountPrice(self):
-        """
-
-        :return:
-        """
         return self.price - self.getDiscountAmount()
