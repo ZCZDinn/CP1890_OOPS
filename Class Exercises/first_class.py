@@ -1,15 +1,4 @@
-from dataclasses import dataclass
-
-@dataclass
-class Product:
-    name:str
-    price:float
-    discountPercent:int
-
-    def getDiscountAmount(self):
-        return self.price * (self.discountPercent / 100)
-    def getDiscountPrice(self):
-        return self.price - self.getDiscountAmount()
+from first_class_class import Product
 
 product1 = Product('Stanley 13 Ounce Wood Hammer', 12.99, 62)
 product2 = Product('National Hardware 3/4" Wire Nails', 10.99, 50)
@@ -21,12 +10,13 @@ def title():
 
 def display_product(choice, ProductList):
     product = ProductList[choice - 1]
+    w = 18
     print("PRODUCT DATA")
-    print(f"Name:\t\t\t\t {product.name}")
-    print(f"Price:\t\t\t\t {product.price}")
-    print(f"Discount percent:\t {product.discountPercent:d}%")
-    print(f"Discount amount:\t {product.getDiscountAmount():.2f}")
-    print(f"Discount price:\t\t {product.getDiscountPrice():.2f}")
+    print(f"{'Name:':{w}} {product.name}")
+    print(f"{'Price:':{w}} {product.price}")
+    print(f"{'Discount percent:':{w}} {product.discountPercent:d}%")
+    print(f"{'Discount amount:':{w}} {product.getDiscountAmount():.2f}")
+    print(f"{'Discount price:':{w}} {product.getDiscountPrice():.2f}")
 
 def display_all_products():
     print("PRODUCTS")
