@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-
+from datetime import datetime
 
 @dataclass
 class Player:
@@ -40,15 +40,33 @@ class Lineup:
         for player in self.__player_list:
             yield player
 
+def diplayPlayers(player_lineup)
+    print(f"{'':3}{'Player':40}{'POS':6}{'AB':>6}{'H':>6}{'AVG':>8}")
+    for i, player in enumerate(player_lineup, start=1):
+        print(f'{i:<3d}{player.fullName:40}{player.position:6}{player.atBats:6d}{player.hits:6d}{player.battingAvg:8.3f}')
+
+def title():
+    print(64 * '=')
+    print(f"{'Baseball Team Manager':>42}")
+
+def get_date():
+    print(f"{'CURRENT DATE:':<17}{datetime.now()}")
+    print("GAME DATE:")
+
+def menu_options():
+    print('MENU OPTIONS')
+    print('1 - Display Lineup')
+    print('2 - Add Player')
+    print('3 - Remove Player')
+    print('4 - Move Player')
+
+    print(' - Exit Program')
+
 def main():
     lineup = Lineup([])
     lineup.addPlayer(Player("Arun", "Rameshbabu", "S", 100, 100))
     lineup.addPlayer(Player("Buster", "Posey", "C", 4575, 1380))
 
-    for player in lineup:
-        print(f"Player: {player.fullName}")
-        print(f"Batting Average: {player.battingAvg}")
-        print()
 
     print("Done")
 
