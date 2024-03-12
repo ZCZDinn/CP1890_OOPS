@@ -31,5 +31,5 @@ print(f"{'Legends Zelda':15} {10.99:10.2f} {3:5d}")
 # Locales
 import locale as lc
 
-lc.setlocale(lc.LC_ALL, 'fr-ca')
+lc.setlocale(lc.LC_ALL, 'en-ca')
 print(lc.currency(12345.6789, grouping=True))
