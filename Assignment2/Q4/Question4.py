@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from datetime import datetime, date, time, timedelta
+from datetime import datetime
 
 @dataclass
 class Event:
@@ -18,15 +18,14 @@ class Conference(Event):
 
     def duration(self):
         diff = (self.end_date - self.start_date)
-        hours = diff.days * 24
-        hours2 = (f'{diff:%H}')
+        hours = diff.seconds // 3600
+        hours2 = diff.days * 24
         hours = hours + hours2
-        print(diff)
         return hours
 
 event = Event("Birthday Party", "New York", datetime(2023, 8, 25),
                                             datetime(2024, 8, 26))
-conference = Conference("Tech Conference", "San Francisco", datetime(2023, 9,15, 3),
+conference = Conference("Tech Conference", "San Francisco", datetime(2023, 9,15),
                                                     datetime(2023, 9, 17), 500)
 
 print("Event:")
