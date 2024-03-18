@@ -1,22 +1,33 @@
 from dataclasses import dataclass
 from datetime import datetime
+#import dataclass and datetime modules for proper functionality of program
 
 @dataclass
 class Event:
+    """
+    instantiates class named 'Event' having a name, location, start date, and end date attribute,
+    and a method to calculate the difference between the start date and end date in days
+    """
     name:str = ''
     location:str = ''
     start_date:datetime = None
     end_date:datetime = None
 
     def duration(self):
+        #Calculates event duration in days
         diff = self.end_date - self.start_date
         return diff.days
 
 @dataclass
 class Conference(Event):
+    """
+    Instantiates a subclass of the Event superclass called 'Conference'  with an additional attendees attribute
+    and a modified duration method to return the duration in hours instead of days.
+    """
     attendees:int = 0
 
     def duration(self):
+        #Properly calculates the duration of the conference in hours
         diff = (self.end_date - self.start_date)
         hours = diff.seconds // 3600
         hours2 = diff.days * 24
