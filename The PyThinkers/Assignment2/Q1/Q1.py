@@ -138,7 +138,6 @@ def main():
         again = input('Continue? (y/n): ').lower()
         print()
 
-    print()
     print('Bye!')
 
 
