@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a495a2f-5e35-4e06-9a61-82c8ea5207e9" name="Changes" comment="Iterator Classes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ar4hA1Mg88aDBQMBNpTvoB57JQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Baseball_Application_Classes.executor": "Run",
+    "Python.Baseball_Lineup_Class.executor": "Run",
+    "Python.Classes_Constructor.executor": "Run",
+    "Python.Dice_Roller_Program.executor": "Run",
+    "Python.Future_Value.executor": "Run",
+    "Python.Inheritance_Exercise.executor": "Run",
+    "Python.Inheritance_basics.executor": "Run",
+    "Python.Node_Basics.executor": "Run",
+    "Python.Roshambo_Game.executor": "Run",
+    "Python.Test1Q1.executor": "Run",
+    "Python.Test1Q2.executor": "Run",
+    "Python.basic_binary_tree.executor": "Run",
+    "Python.basic_linked_list.executor": "Run",
+    "Python.binaryTree_module.executor": "Run",
+    "Python.decorators_intro.executor": "Run",
+    "Python.first_class.executor": "Run",
+    "Python.product_example.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Assignment__2__In__Progress",
+    "last_opened_file_path": "C:/Users/Christian.Dinn/Documents/GitHub/CP1890_OOPS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christian.Dinn\Documents\GitHub\CP1890_OOPS" />
+      <recent name="C:\Users\Christian.Dinn\Documents\GitHub\CP1890_OOPS\LinkedLists" />
+      <recent name="C:\Users\Christian.Dinn\Documents\GitHub\CP1890_OOPS\Class Exercises\Inheritance" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a495a2f-5e35-4e06-9a61-82c8ea5207e9" name="Changes" comment="" />
+      <created>1705063480443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705063480443</updated>
+      <workItem from="1705063481523" duration="3472000" />
+      <workItem from="1705067879095" duration="15000" />
+      <workItem from="1705321191298" duration="2447000" />
+      <workItem from="1705323651771" duration="3658000" />
+      <workItem from="1705666528498" duration="2469000" />
+      <workItem from="1705669610364" duration="923000" />
+      <workItem from="1705670553360" duration="1909000" />
+      <workItem from="1705929137164" duration="199000" />
+      <workItem from="1705929357215" duration="1553000" />
+      <workItem from="1706706240198" duration="1473000" />
+      <workItem from="1707479912448" duration="87000" />
+      <workItem from="1707480006224" duration="3511000" />
+      <workItem from="1707739580224" duration="48000" />
+      <workItem from="1707741524983" duration="769000" />
+      <workItem from="1707751035726" duration="134000" />
+      <workItem from="1707752855451" duration="627000" />
+      <workItem from="1708086429788" duration="5406000" />
+      <workItem from="1708346605316" duration="1941000" />
+      <workItem from="1708517501582" duration="1274000" />
+      <workItem from="1708690466653" duration="5565000" />
+      <workItem from="1708949334997" duration="5754000" />
+      <workItem from="1709122257001" duration="1956000" />
+      <workItem from="1709124222581" duration="3069000" />
+      <workItem from="1709297262572" duration="3932000" />
+      <workItem from="1710158431538" duration="2878000" />
+      <workItem from="1710414309475" duration="330000" />
+      <workItem from="1710501751209" duration="1616000" />
+      <workItem from="1710508144969" duration="366000" />
+      <workItem from="1710760129490" duration="1242000" />
+    </task>
+    <task id="LOCAL-00001" summary="End of class three instruction">
+      <option name="closed" value="true" />
+      <created>1705067712343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705067712343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="End of class four instruction">
+      <option name="closed" value="true" />
+      <created>1705324274405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705324274405</updated>
+    </task>
+    <task id="LOCAL-00003" summary="End of class four instruction">
+      <option name="closed" value="true" />
+      <created>1705326841008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705326841008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="End of class four instruction">
+      <option name="closed" value="true" />
+      <created>1705669161836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669161836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Iterator Classes">
+      <option name="closed" value="true" />
+      <created>1708696035243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708696035243</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="End of class three instruction" />
+    <MESSAGE value="End of class four instruction" />
+    <MESSAGE value="Iterator Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator Classes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Roshambo_Game.coverage" NAME="Roshambo_Game Coverage Results" MODIFIED="1709300545617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$first_class.coverage" NAME="first_class Coverage Results" MODIFIED="1705667739505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Inheritance_basics.coverage" NAME="Inheritance_basics Coverage Results" MODIFIED="1708347917007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Inheritance_Exercise.coverage" NAME="Inheritance_Exercise Coverage Results" MODIFIED="1708517595591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$binaryTree_module.coverage" NAME="binaryTree_module Coverage Results" MODIFIED="1709125580296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_binary_tree.coverage" NAME="basic_binary_tree Coverage Results" MODIFIED="1709125566570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Classes_Constructor.coverage" NAME="Classes_Constructor Coverage Results" MODIFIED="1705324625953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Node_Basics.coverage" NAME="Node_Basics Coverage Results" MODIFIED="1710508182762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedLists" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Lineup_Class.coverage" NAME="Baseball_Lineup_Class Coverage Results" MODIFIED="1708693416438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Test1Q2.coverage" NAME="Test1Q2 Coverage Results" MODIFIED="1708091744395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$decorators_intro.coverage" NAME="decorators_intro Coverage Results" MODIFIED="1707741564609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323463027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_linked_list.coverage" NAME="basic_linked_list Coverage Results" MODIFIED="1708954638405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedLists" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Test1Q1.coverage" NAME="Test1Q1 Coverage Results" MODIFIED="1708090562754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Application_Classes.coverage" NAME="Baseball_Application_Classes Coverage Results" MODIFIED="1708691831000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_Roller_Program.coverage" NAME="Dice_Roller_Program Coverage Results" MODIFIED="1705929621658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Future_Value.coverage" NAME="Future_Value Coverage Results" MODIFIED="1705066055741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+Index: Binary Trees/binaryTree_module.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from binarytree import\r\n\r\nnodes = [10, 5, 4, 20, 47, None, 67]\r\n\r\n# Building the binary tree\r\nbinary_tree =\r\nbinary_tree.\r\nprint(\"Binary Tree from the list:\\n\", binary_tree)
+===================================================================
+diff --git a/Binary Trees/binaryTree_module.py b/Binary Trees/binaryTree_module.py
+--- a/Binary Trees/binaryTree_module.py	
++++ b/Binary Trees/binaryTree_module.py	
+@@ -1,8 +1,7 @@
+-from binarytree import
++from binarytree import build
+ 
+ nodes = [10, 5, 4, 20, 47, None, 67]
+ 
+ # Building the binary tree
+-binary_tree =
+-binary_tree.
+-print("Binary Tree from the list:\n", binary_tree)
+\ No newline at end of file
++binary_tree = build(nodes)
++print("Binary Tree from the list:\n", binary_tree)
+Index: Binary Trees/basic_binary_tree.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from dataclasses import dataclass\r\n\r\n@dataclass\r\nclass Node:\r\n    def __init__(self, data):\r\n        self.left = None\r\n        self.right = None\r\n        self.data = data\r\n\r\n\r\nclass BinaryTree:\r\n    def __init__(self):\r\n        self.root = None\r\n\r\n    def add(self, data):\r\n        if self.root is None:\r\n            self.root = Node(data)\r\n        else:\r\n            self._addNode(data, self.root)\r\n\r\n    def _addNode(self, data, node):\r\n        if data < node.data:\r\n            if node.left:\r\n                self._addNode(data, node.left)\r\n            else:\r\n                node.left = Node(data)\r\n        else:\r\n            if node.right:\r\n                self._addNode(data, node.right)\r\n            else:\r\n                node.right = Node(data)\r\n\r\n    def printTree(self):\r\n        if self.root:\r\n            self._view_tree(self.root)\r\n\r\n    def _view_tree(self, node):\r\n        if node:\r\n            self._view_tree(node.left)\r\n            print(node.data, end=\"->\")\r\n            self._view_tree(node.right)\r\n\r\ntree = BinaryTree()\r\ntree.add(10)\r\ntree.add(3)\r\ntree.add(20)\r\ntree.add(15)\r\ntree.add(25)\r\n\r\ntree.printTree()
+===================================================================
+diff --git a/Binary Trees/basic_binary_tree.py b/Binary Trees/basic_binary_tree.py
+--- a/Binary Trees/basic_binary_tree.py	
++++ b/Binary Trees/basic_binary_tree.py	
+@@ -26,7 +26,7 @@
+                 node.left = Node(data)
+         else:
+             if node.right:
+-                self._addNode(data, node.right)
++                self._addNode(data, self.root.right)
+             else:
+                 node.right = Node(data)
+ 
+@@ -37,7 +37,7 @@
+     def _view_tree(self, node):
+         if node:
+             self._view_tree(node.left)
+-            print(node.data, end="->")
++            print(node.data, end='->')
+             self._view_tree(node.right)
+ 
+ tree = BinaryTree()

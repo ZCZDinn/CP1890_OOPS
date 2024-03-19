@@ -1,0 +1,302 @@
+Index: LinkedLists/Node_Basics.py
+===================================================================
+diff --git a/LinkedLists/Node_Basics.py b/LinkedLists/Node_Basics.py
+new file mode 100644
+--- /dev/null	
++++ b/LinkedLists/Node_Basics.py	
+@@ -0,0 +1,78 @@
++from dataclasses import dataclass
++
++
++class Node:
++    def __init__(self, data):
++        self.data = data
++        self.nextNode = None
++
++    def __repr__(self):
++        return f"Node: {self.data}"
++
++class LinkedList:
++    def __init__(self):
++        self.head = None
++
++    def __repr__(self):
++        node = self.head
++        nodes = []
++        while node is not None:
++            nodes.append(str(node.data))
++            node = node.nextNode
++        nodes.append('None')
++        return '->'.join(nodes)
++
++    def insertAtHead(self, data):
++        newNode = Node(data)
++        if self.head is None:
++            self.head = newNode
++            return
++        else:
++            newNode.nextNode = self.head
++            self.head = newNode
++
++    def insertAtTail(self, data):
++        newNode = Node(data)
++        if self.head is None:
++            self.head = newNode
++            return
++
++        currentNode = self.head
++        while currentNode.nextNode:
++            currentNode = currentNode.nextNode
++
++        currentNode.nextNode = newNode
++
++    def insertAtPosition(self, data, position):
++        newNode = Node(data)
++        currentNode = self.head
++        pos = 0
++        if pos == position:
++            self.insertAtHead(newNode)
++        else:
++            while (currentNode != None and (pos+1) != position):
++                pos = pos + 1
++                currentNode = currentNode.nextNode
++            if currentNode != None:
++                newNode.nextNode = currentNode.nextNode
++                currentNode.nextNode = newNode
++            else:
++                print("Position does not exist")
++
++llist = LinkedList()
++
++firstNode = Node('a')
++llist.head = firstNode
++
++secondNode = Node('b')
++thirdNode = Node('c')
++
++firstNode.nextNode = secondNode
++secondNode.nextNode = thirdNode
++
++llist.insertAtHead(0)
++llist.insertAtTail(100)
++llist.insertAtPosition(50, 3)
++
++print(llist)
++
+Index: Test2/Test2Q1.py
+===================================================================
+diff --git a/Test2/Test2Q1.py b/Test2/Test2Q1.py
+new file mode 100644
+--- /dev/null	
++++ b/Test2/Test2Q1.py	
+@@ -0,0 +1,32 @@
++from dataclasses import dataclass
++
++@dataclass
++class Bank:
++    accounts:dict = None
++    account_number:int = 0
++    transaction_history:list = None
++
++    def create_account(self, customer_name, initial_balance):
++        self.accounts[customer_name] = initial_balance
++
++    def deposit(self, customer_name, amount):
++        self.transaction_history.append(f'Deposit: {amount}')
++        self.accounts[customer_name] += amount
++
++    def withdraw(self, customer_name, amount):
++        self.transaction_history.append(f'Withdrawal: {amount}')
++        self.accounts[customer_name] -= amount
++
++    def get_balance(self, customer_name):
++        return self.accounts[customer_name]
++
++    def get_transaction_history(self):
++        for transaction in self.transaction_history:
++            print(transaction)
++
++    def transfer(self, sender_name, receiver_name, amount):
++        self.transaction_history.append(f'Transfer: -{amount} to {receiver_name}')
++        self.accounts[sender_name] -= amount
++
++
++
+Index: Class Exercises/Inheritance/Roshambo_Game.py
+===================================================================
+diff --git a/Class Exercises/Inheritance/Roshambo_Game.py b/Class Exercises/Inheritance/Roshambo_Game.py
+new file mode 100644
+--- /dev/null	
++++ b/Class Exercises/Inheritance/Roshambo_Game.py	
+@@ -0,0 +1,110 @@
++from dataclasses import dataclass
++import random
++
++ROSHAMBO_COLL = ('rock', 'paper', 'scissors')
++@dataclass
++class Player:
++    name:str = ''
++    roshambo:str = ROSHAMBO_COLL[0]
++    __wins:int = 0
++    __losses:int = 0
++
++    def generateRoshambo(self):
++        self.roshambo = ROSHAMBO_COLL[0]
++
++    def play(self, player):
++        if self.roshambo == player.roshambo:
++            return None
++        else:
++            if (self.roshambo == 'rock' and player.roshambo == 'scissors') \
++                or (self.roshambo == 'paper' and player.roshambo == 'rock') \
++                    or (self.roshambo == 'scissors' and player.roshambo == 'paper'):
++                return self
++            else:
++                return player
++
++    @property
++    def wins(self):
++        return self.__wins
++
++    @property
++    def losses(self):
++        return self.__losses
++
++    def addWin(self):
++        self.__wins += 1
++
++    def addLoss(self):
++        self.__losses += 1
++
++    def __str__(self):
++        return f'{self.name}: {self.roshambo}'
++
++
++@dataclass
++class Bart(Player):
++    def __post_init__(self):
++        self.name = 'Bart'
++
++@dataclass
++class Lisa(Player):
++    def __post_init__(self):
++        self.name = 'Lisa'
++
++    def generateRoshambo(self):
++        self.roshambo = random.choice(ROSHAMBO_COLL)
++
++def main():
++    print("Roshambo Game\n")
++    name = input('Enter your name: ')
++    print()
++    player1 = Player(name)
++    opponent = input('Would you like to play against Bart or Lisa?(b/l): ')
++    print()
++
++    while True:
++        if opponent.lower() == 'b':
++            player2 = Bart()
++            break
++        elif opponent.lower() == 'l':
++            player2 = Lisa()
++            break
++        else:
++            print("Invalid choice. Select again.")
++            opponent = input('Would you like to play against Bart or Lisa?(b/l): ').lower()
++            print()
++
++    play_again = 'y'
++    while play_again.lower() == 'y':
++        selection = input('Rock, Paper, or Scissors?(r/p/s): ').lower()
++        if selection == 'r':
++            player1.roshambo = 'rock'
++        elif selection == 'p':
++            player1.roshambo = 'paper'
++        elif selection == 's':
++            player1.roshambo = 'scissors'
++        else:
++            print('Invalid choice. Select again.')
++            continue
++
++        player2.generateRoshambo()
++        print(player1)
++        print(player2)
++
++        winner = player1.play(player2)
++        if winner is None:
++            print('Draw!\n')
++        else:
++            print(f'{winner.name} wins!\n')
++            winner.addWin()
++            if winner is player1:
++                player2.addLoss()
++            else:
++                player1.addLoss()
++
++        print(f"{player1.name}: {player1.wins} total win(s), {player1.losses} total loss(es)")
++        print(f"{player2.name}: {player2.wins} total win(s), {player2.losses} total loss(es)")
++        print()
++
++if __name__ == '__main__':
++    main()
+\ No newline at end of file
+Index: Class Exercises/Inheritance/Baseball_With_Iterator.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from dataclasses import dataclass\r\nfrom datetime import datetime\r\n\r\n@dataclass\r\nclass Player:\r\n    firstName: str = ''\r\n    lastName: str = ''\r\n    position: str = ''\r\n    atBats: int = 0\r\n    hits: int = 0\r\n\r\n    @property\r\n    def fullName(self):\r\n        return f'{self.firstName} {self.lastName}'\r\n\r\n    @property\r\n    def battingAvg(self) -> float:\r\n        try:\r\n            avg = self.hits / self.atBats\r\n            return avg\r\n        except ZeroDivisionError:\r\n            return 0.0\r\n\r\n\r\n@dataclass\r\nclass Lineup:\r\n    __player_list: list\r\n\r\n    @property\r\n    def count(self):\r\n        return len(self.__player_list)\r\n\r\n    def addPlayer(self, player: Player):\r\n        self.__player_list.append(player)\r\n\r\n    def removePlayer(self, number):\r\n        self.__player_list.pop(number-1)\r\n\r\n    def __iter__(self):\r\n        for player in self.__player_list:\r\n            yield player\r\n\r\ndef diplayPlayers(player_lineup)\r\n    print(f\"{'':3}{'Player':40}{'POS':6}{'AB':>6}{'H':>6}{'AVG':>8}\")\r\n    for i, player in enumerate(player_lineup, start=1):\r\n        print(f'{i:<3d}{player.fullName:40}{player.position:6}{player.atBats:6d}{player.hits:6d}{player.battingAvg:8.3f}')\r\n\r\ndef title():\r\n    print(64 * '=')\r\n    print(f\"{'Baseball Team Manager':>42}\")\r\n\r\ndef get_date():\r\n    print(f\"{'CURRENT DATE:':<17}{datetime.now()}\")\r\n    print(\"GAME DATE:\")\r\n\r\ndef menu_options():\r\n    print('MENU OPTIONS')\r\n    print('1 - Display Lineup')\r\n    print('2 - Add Player')\r\n    print('3 - Remove Player')\r\n    print('4 - Move Player')\r\n\r\n    print(' - Exit Program')\r\n\r\ndef main():\r\n    lineup = Lineup([])\r\n    lineup.addPlayer(Player(\"Arun\", \"Rameshbabu\", \"S\", 100, 100))\r\n    lineup.addPlayer(Player(\"Buster\", \"Posey\", \"C\", 4575, 1380))\r\n\r\n\r\n    print(\"Done\")\r\n\r\nif __name__ == \"__main__\":\r\n    main()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Inheritance/Baseball_With_Iterator.py b/Class Exercises/Inheritance/Baseball_With_Iterator.py
+--- a/Class Exercises/Inheritance/Baseball_With_Iterator.py	
++++ b/Class Exercises/Inheritance/Baseball_With_Iterator.py	
+@@ -59,8 +59,15 @@
+     print('2 - Add Player')
+     print('3 - Remove Player')
+     print('4 - Move Player')
++    print('5 - Edit Player Position')
++    print('6 - Edit Player Stats')
++    print('7 - Exit Program')
+ 
+-    print(' - Exit Program')
++def positions() -> tuple:
++    print('POSITIONS')
++    print('C, 1B, 2B, 3B, SS, LF, CF, RF, P')
++    pos_tuple = ('C', '1B', '2B', '3B', 'SS', 'LF', 'CF', 'RF', 'P')
++    return pos_tuple
+ 
+ def main():
+     lineup = Lineup([])
+Index: Databases/Movie_List_DB.py
+===================================================================
+diff --git a/Databases/Movie_List_DB.py b/Databases/Movie_List_DB.py
+new file mode 100644
+--- /dev/null	
++++ b/Databases/Movie_List_DB.py	
+@@ -0,0 +1,26 @@
++import sqlite3
++
++def opener():
++    print("Movie List Program")
++    print()
++    print("COMMAND MENU")
++    print("cat  - View movies by category")
++    print("year - View movies by year")
++    print("add  - Add a movie")
++    print("del  - Delete a movie")
++    print("exit - Exit program")
++
++def categories():
++    print("CATEGORIES")
++    print("1. Animation")
++    print("2. Comedy")
++    print("3. History")
++
++def create_db():
++    conn = sqlite3.connect('movies_db.sqlite')
++    c = conn.cursor()
++    query = """CREATE TABLE IF NOT EXISTS movies (id INTEGER PRIMARY KEY, name TEXT, year INTEGER, mins INTEGER, category TEXT);"""
++    c.execute(query)
++
++
++
