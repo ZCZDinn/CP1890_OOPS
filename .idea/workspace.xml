@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a495a2f-5e35-4e06-9a61-82c8ea5207e9" name="Changes" comment="Iterator Classes" />
+    <list default="true" id="6a495a2f-5e35-4e06-9a61-82c8ea5207e9" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/The PyThinkers/Assignment2/Q3/Question3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,37 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Baseball_Application_Classes.executor": "Run",
-    "Python.Baseball_Lineup_Class.executor": "Run",
-    "Python.Classes_Constructor.executor": "Run",
-    "Python.Dice_Roller_Program.executor": "Run",
-    "Python.Future_Value.executor": "Run",
-    "Python.Inheritance_Exercise.executor": "Run",
-    "Python.Inheritance_basics.executor": "Run",
-    "Python.Node_Basics.executor": "Run",
-    "Python.Roshambo_Game.executor": "Run",
-    "Python.Test1Q1.executor": "Run",
-    "Python.Test1Q2.executor": "Run",
-    "Python.basic_binary_tree.executor": "Run",
-    "Python.basic_linked_list.executor": "Run",
-    "Python.binaryTree_module.executor": "Run",
-    "Python.decorators_intro.executor": "Run",
-    "Python.first_class.executor": "Run",
-    "Python.product_example.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Assignment__2__In__Progress",
-    "last_opened_file_path": "C:/Users/Christian.Dinn/Documents/GitHub/CP1890_OOPS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Baseball_Application_Classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Baseball_Lineup_Class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classes_Constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dice_Roller_Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Future_Value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Node_Basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Roshambo_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test1Q1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test1Q2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_binary_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_linked_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binaryTree_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorators_intro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Assignment__2__In__Progress&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Christian.Dinn/Documents/GitHub/CP1890_OOPS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Christian.Dinn\Documents\GitHub\CP1890_OOPS" />
@@ -115,6 +118,7 @@
       <workItem from="1710501751209" duration="1616000" />
       <workItem from="1710508144969" duration="366000" />
       <workItem from="1710760129490" duration="1242000" />
+      <workItem from="1710845898824" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="End of class three instruction">
       <option name="closed" value="true" />
@@ -156,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708696035243</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="...">
+      <option name="closed" value="true" />
+      <created>1710846055568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846055568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +178,8 @@
     <MESSAGE value="End of class three instruction" />
     <MESSAGE value="End of class four instruction" />
     <MESSAGE value="Iterator Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator Classes" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Roshambo_Game.coverage" NAME="Roshambo_Game Coverage Results" MODIFIED="1709300545617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
