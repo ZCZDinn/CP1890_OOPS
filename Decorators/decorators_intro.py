@@ -28,4 +28,4 @@ def f3():
 # x = f1(f)
 # x()
 
-f("Let's dance")
+f3()
