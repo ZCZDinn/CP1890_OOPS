@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7812a062-cc50-4814-b678-cf18c80db655" name="Changes" comment="Future value calculator with GUI" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Assignment2Pythinkers" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2duKKvgGU4hGRjpufrQi10aQaLY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.SalesData_Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui_introduction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christian.Dinn\Documents\GitHub\CP1890_OOPS\The PyThinkers" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7812a062-cc50-4814-b678-cf18c80db655" name="Changes" comment="minor spacing removed" />
+      <created>1710852462906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710852462906</updated>
+      <workItem from="1710852463995" duration="909000" />
+      <workItem from="1711105962506" duration="4909000" />
+      <workItem from="1711365254190" duration="5734000" />
+      <workItem from="1711537417309" duration="3100000" />
+    </task>
+    <task id="LOCAL-00001" summary="Assignment questions added to new repository avoid errors in possibly rewriting or overriding Arun main branch">
+      <option name="closed" value="true" />
+      <created>1710852630210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710852630210</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Future value calculator with GUI">
+      <option name="closed" value="true" />
+      <created>1711538331297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711538331297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor spacing removed" />
+    <MESSAGE value="Assignment questions added to new repository avoid errors in possibly rewriting or overriding Arun main branch" />
+    <MESSAGE value="Future value calculator with GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Future value calculator with GUI" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Roshambo_Game.coverage" NAME="Roshambo_Game Coverage Results" MODIFIED="1709300545617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$first_class.coverage" NAME="first_class Coverage Results" MODIFIED="1705667739505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Inheritance_basics.coverage" NAME="Inheritance_basics Coverage Results" MODIFIED="1708347917007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$ui_introduction.coverage" NAME="ui_introduction Coverage Results" MODIFIED="1711365262699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Inheritance_Exercise.coverage" NAME="Inheritance_Exercise Coverage Results" MODIFIED="1708517595591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$binaryTree_module.coverage" NAME="binaryTree_module Coverage Results" MODIFIED="1709125580296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_binary_tree.coverage" NAME="basic_binary_tree Coverage Results" MODIFIED="1709125566570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Q2.coverage" NAME="Q2 Coverage Results" MODIFIED="1710847223926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/The PyThinkers/Assignment2/Q2" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Q1.coverage" NAME="Q1 Coverage Results" MODIFIED="1710847361657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/The PyThinkers/Assignment2/Q1" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Classes_Constructor.coverage" NAME="Classes_Constructor Coverage Results" MODIFIED="1705324625953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Node_Basics.coverage" NAME="Node_Basics Coverage Results" MODIFIED="1710508182762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedLists" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Lineup_Class.coverage" NAME="Baseball_Lineup_Class Coverage Results" MODIFIED="1708693416438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Test1Q2.coverage" NAME="Test1Q2 Coverage Results" MODIFIED="1708091744395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$decorators_intro.coverage" NAME="decorators_intro Coverage Results" MODIFIED="1707741564609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323463027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_linked_list.coverage" NAME="basic_linked_list Coverage Results" MODIFIED="1708954638405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedLists" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Question3.coverage" NAME="Question3 Coverage Results" MODIFIED="1710846806629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/The PyThinkers/Assignment2/Q3" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Test1Q1.coverage" NAME="Test1Q1 Coverage Results" MODIFIED="1708090562754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Application_Classes.coverage" NAME="Baseball_Application_Classes Coverage Results" MODIFIED="1708691831000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$SalesData_Ex.coverage" NAME="SalesData_Ex Coverage Results" MODIFIED="1711537769201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_Roller_Program.coverage" NAME="Dice_Roller_Program Coverage Results" MODIFIED="1705929621658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Future_Value.coverage" NAME="Future_Value Coverage Results" MODIFIED="1705066055741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+  </component>
+</project>
