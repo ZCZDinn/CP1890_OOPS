@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import font, messagebox
 from tkinter import ttk
 
+
 def clicked_button1():
     monthly_investment = m_inv_text.get()
     yearly_interest = y_int_text.get()
@@ -20,12 +21,10 @@ def clicked_button1():
         future_value += monthly_investment
         month_interest = future_value * monthly_interest
         future_value += month_interest
-    m_after_text.set(f"{monthly_investment:.2f}")
-    int_rate_text.set(f"{yearly_interest:.2f}")
+    m_after_text.set(f"${monthly_investment:.2f}")
+    int_rate_text.set(f"{yearly_interest}%")
     years_prod_text.set(f"{years}")
     future_value_text.set(f"${future_value:.2f}")
-
-
 
 
 window = tk.Tk()
@@ -59,7 +58,6 @@ gap1.grid(column=0, row=3)
 calculated = ttk.Label(frame, text="Calculated", font=font.Font(underline=True))
 calculated.grid(column=0, row=4, columnspan=2)
 
-
 m_inv_after = ttk.Label(frame, text="Monthly Investment:  ")
 m_inv_after.grid(column=0, row=5, sticky=tk.E)
 m_after_text = tk.StringVar()
@@ -89,6 +87,5 @@ gap2.grid(column=0, row=9, columnspan=2)
 
 button1 = ttk.Button(frame, text="Calculate", command=clicked_button1)
 button1.grid(column=0, row=10, columnspan=2)
-
 
 window.mainloop()
