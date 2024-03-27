@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
 
 # Create an empty window
 first_window = tk.Tk()
@@ -12,7 +12,18 @@ frame.pack(fill="both", expand=True)
 def clicked_button1():
     first_window.title("Yes!, I am the cool button")
     name = name_text.get()
-    about_text.set(f'{name} is cool')
+    if name == '':
+        #messagebox.showerror("Error", "No name entered")
+        #messagebox.showwarning("Warning", "No name entered")
+        #messagebox.showinfo("Info", "No name entered")
+        response = messagebox.askyesno("Are you sure", "No input entered, proceed?")
+        if response:
+            about_text.set("No name entered, however we continued")
+        else:
+            about_text.set("Enter a name.")
+
+    else:
+        about_text.set(f"{name} is cool")
 
 def clicked_button2():
     first_window.destroy()
@@ -28,7 +39,7 @@ about_label = ttk.Label(frame, text="About")
 about_label.grid(column=0, row=1, sticky=tk.E)
 #about_label.pack()
 about_text = tk.StringVar()
-about_entry = ttk.Entry(frame, width=25, textvariable=about_text, state='readonly')
+about_entry = ttk.Entry(frame, width=25, textvariable=about_text, state="readonly")
 about_entry.grid(column=1, row=1)
 #about_entry.pack()
 
@@ -40,7 +51,7 @@ button2.grid(column=1, row=2)
 #button2.pack()
 
 for child in frame.winfo_children():
-    child.grid_configure(padx=5, pady=5)
+    child.grid_configure(padx=5, pady=3)
 
 
 
