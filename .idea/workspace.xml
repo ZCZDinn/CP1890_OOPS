@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7812a062-cc50-4814-b678-cf18c80db655" name="Changes" comment="Future value calculator with GUI" />
+    <list default="true" id="7812a062-cc50-4814-b678-cf18c80db655" name="Changes" comment="end of last class coverage">
+      <change afterPath="$PROJECT_DIR$/Assignment3/Question5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/Sales_Data.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +87,8 @@
       <workItem from="1710852463995" duration="909000" />
       <workItem from="1711105962506" duration="4909000" />
       <workItem from="1711365254190" duration="5734000" />
-      <workItem from="1711537417309" duration="3100000" />
+      <workItem from="1711537417309" duration="3837000" />
+      <workItem from="1712574897293" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment questions added to new repository avoid errors in possibly rewriting or overriding Arun main branch">
       <option name="closed" value="true" />
@@ -101,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711538331297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="end of last class coverage">
+      <option name="closed" value="true" />
+      <created>1711542137833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711542137833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +124,8 @@
     <MESSAGE value="minor spacing removed" />
     <MESSAGE value="Assignment questions added to new repository avoid errors in possibly rewriting or overriding Arun main branch" />
     <MESSAGE value="Future value calculator with GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Future value calculator with GUI" />
+    <MESSAGE value="end of last class coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="end of last class coverage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Roshambo_Game.coverage" NAME="Roshambo_Game Coverage Results" MODIFIED="1709300545617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
